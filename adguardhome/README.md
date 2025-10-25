@@ -19,6 +19,6 @@
       #--- Listining Ports ---
       - "53:53/tcp"       # DNS
       - "53:53/udp"       # DNS
-      # - "3000:3000/tcp"   # Initial Setup Wizzard
-      # - "8080:80/tcp"   # Admin UI HTTP</code>
+      - "3000:3000/tcp"   # Initial Setup Wizzard
+      - "8080:80/tcp"   # Admin UI HTTP</code>
 </html>
