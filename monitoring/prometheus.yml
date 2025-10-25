@@ -20,7 +20,7 @@ scrape_configs:
 
   # Example job for node_exporter
   - job_name: 'node_exporter'
-   static_configs:
+    static_configs:
       - targets: ['node_exporter:9100']
       
   # Example job for cadvisor
